@@ -1,7 +1,7 @@
 import networkx as nx
 
 G = nx.read_edgelist(
-    "networkx.tsv",
+    "ChG-TargetDecagon_targets.csv",
     delimiter="\t",
     nodetype=str,
     data=False
