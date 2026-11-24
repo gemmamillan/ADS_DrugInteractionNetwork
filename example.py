@@ -2,10 +2,12 @@ import networkx as nx
 
 G = nx.read_edgelist(
     "ChG-TargetDecagon_targets.csv",
-    delimiter="\t",
+    delimiter=",",#we changed the separation of the columns according to our database file
+    #in our case, the columns are separated by a comma
     nodetype=str,
     data=False
 )
+
 
 print("Graph statistics")
 print("----------------")
