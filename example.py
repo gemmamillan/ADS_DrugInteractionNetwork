@@ -29,3 +29,5 @@ degrees = [d for _, d in G.degree()]
 print(f"Average degree: {sum(degrees)/len(degrees):.2f}")
 print(f"Maximum degree: {max(degrees)}")
 print(f"Minimum degree: {min(degrees)}")
+
+print('hola')
